@@ -1,6 +1,6 @@
 # PyroFilesStoreBot
 
-This is Telegram Parmanent Files Store Bot by [@](https://github.com/AbirHasan2005).
+This is Telegram Parmanent Files Store Bot by [@](https://github.com/one-mistake).
 
 - **Language:** [Python3](https://www.python.org)
 - **Library:** [Pyrogram](https://docs.pyrogram.org)
@@ -15,19 +15,19 @@ This is Telegram Parmanent Files Store Bot by [@](https://github.com/AbirHasan20
 
 ### Demo Bot:
 
-<a href="https://t.me/MediasStoreBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
+<a href="https://t.me/TGS_FileStoreBot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 
-- `API_ID` - Get this from [@TeleORG_Bot](https://t.me/)
-- `API_HASH` - Get this from [@TeleORG_Bot](https://t.me/TeleORG_Bot)
+- `API_ID` - Get this from [Telegram](https://my.telegram.org)
+- `API_HASH` - Get this from [Telegram](https://my.telegram.org)
 - `BOT_TOKEN` - Get this from [@BotFather](https://t.me/BotFather)
 - `BOT_USERNAME` - You Bot Username. _(Without [@])_
 - `DB_CHANNEL` - A Telegram Channel ID.
   - Make a Channel for Storing Files. We will use that as Database. Channel must be Private! Else you will be Copyright by [Telegram DMCA](https://t.me/dmcatelegram)!
 - `BOT_OWNER` - Bot Owner UserID
   - Put your Telegram UserID for doing Broadcast.
-- `DATABASE_URL` - MongoDB Database URI
+- `DATABASE_URL` - MongoDB Database URL
   - This for Saving UserIDs. When you will Broadcast, bot will forward the Broadcast to DB Users.
 - `UPDATES_CHANNEL` - Force Sub Channel ID _(Optional)_
   - ID of a Channel which you want to do Force Sub to use the bot.
@@ -40,13 +40,9 @@ This is Telegram Parmanent Files Store Bot by [@](https://github.com/AbirHasan20
 - `BANNED_CHAT_IDS` - All Banned Channel IDs _(Optional)_
   - Put all banned channel IDs & Separate with space.
 
-### Video Tutorial:
-
-[![YouTube](https://img.shields.io/badge/YouTube-Video%20Tutorial-red?logo=youtube)](https://youtu.be/hHu2RaePhwI)
-
 ### Deploy Now:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AbirHasan2005/PyroFilesStoreBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/one-mistake/TGS-FileStoreBot)
 
 ## Commands:
 
@@ -62,19 +58,4 @@ banned_users - Get All Banned Users [Owner Only]
 
 ### Support Group:
 
-<a href="https://t.me/JoinOT"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
-
-### Follow on:
-
-<p align="left">
-<a href="https://github.com/AbirHasan2005"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
-</p>
-<p align="left">
-<a href="https://twitter.com/AbirHasan2005"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
-</p>
-<p align="left">
-<a href="https://facebook.com/AbirHasan2005"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
-</p>
-<p align="left">
-<a href="https://instagram.com/AbirHasan2005"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
-</p>
+<a href="https://t.me/HackingCraze24_7d"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
