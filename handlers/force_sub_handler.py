@@ -1,4 +1,4 @@
-# (c) @AbirHasan2005
+# (c) @one-mistake
 
 import asyncio
 from typing import (

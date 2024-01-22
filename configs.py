@@ -1,4 +1,4 @@
-# (c) @HackingCraze_Papa
+# (c) @one-mistake
 
 import os
 
