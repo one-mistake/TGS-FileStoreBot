@@ -74,8 +74,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Bots Channel", url="https://telegram.me/SaveRestrictedContent_byTGS")
+                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
+                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/HackingCraze24_7d)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://telegram.me/HackingCraze24_7d)",
                                      disable_web_page_preview=True)
             return
 
@@ -350,8 +350,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted ", url="https://telegram.me/SaveRestrictedContent_byTGS")
+                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
+                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -371,7 +371,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/HackingCraze24_7d).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://telegram.me/HackingCraze24_7d).",
                         disable_web_page_preview=True
                     )
                     return
@@ -394,7 +394,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/HackingCraze24_7d).",
+                    text="Something went Wrong. Contact my [Support Group](https://telegram.me/HackingCraze24_7d).",
                     disable_web_page_preview=True
                 )
                 return
@@ -404,8 +404,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Bots Channel", url="https://telegram.me/SaveRestrictedContent_byTGS")
+                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
+                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),

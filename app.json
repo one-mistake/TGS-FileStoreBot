@@ -4,7 +4,7 @@
   "keywords": ["telegram", "files", "store", "bot"],
   "repository": "https://github.com/one-mistake/TGS-FileStoreBot",
   "website": "https://telegram.dog/HackingCraze_Papa",
-  "success_url": "https://t.me/HakingCraze24_7d",
+  "success_url": "https://telegram.me/HakingCraze24_7d",
   "env": {
     "API_ID": {
       "description": "Get this value from my.telegram.org"

@@ -1,4 +1,4 @@
-# (c) @Aone-mistake
+# (c) @one-mistake
 
 import asyncio
 from configs import Config
@@ -55,8 +55,8 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"Just Click the link to get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGS"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d")]]
+                 [InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot"),
+                  InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d")]]
             ),
             disable_web_page_preview=True
         )
@@ -94,8 +94,8 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             "Just Click the link to get your file!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://telegram.me/SaveRestrictedContent_byTGS"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d")]]
+                 [InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot"),
+                  InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d")]]
             ),
             disable_web_page_preview=True
         )
