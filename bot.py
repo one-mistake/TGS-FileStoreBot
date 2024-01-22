@@ -75,7 +75,7 @@ async def start(bot: Client, cmd: Message):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Affiliate_Link_Marketing")
+                        InlineKeyboardButton("Bots Channel", url="https://telegram.me/SaveRestrictedContent_byTGS")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -351,7 +351,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Affiliate_Link_Marketing")
+                        InlineKeyboardButton("Save Restricted ", url="https://telegram.me/SaveRestrictedContent_byTGS")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -405,7 +405,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Support Group", url="https://t.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Affiliate_Link_Marketing")
+                        InlineKeyboardButton("Bots Channel", url="https://telegram.me/SaveRestrictedContent_byTGS")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
