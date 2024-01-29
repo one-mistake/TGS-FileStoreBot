@@ -1,4 +1,4 @@
-# (c) Mr. Vishal & @one-mistake
+#  @one-mistake
 
 import datetime
 from configs import Config
