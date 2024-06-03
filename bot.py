@@ -74,12 +74,12 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
+                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d"),
+                        InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -104,7 +104,7 @@ async def start(bot: Client, cmd: Message):
             for i in range(len(message_ids)):
                 await send_media_and_reply(bot, user_id=cmd.from_user.id, file_id=int(message_ids[i]))
         except Exception as err:
-            await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
+            await cmd.reply_text(f"__Something went wrong!\n\n**Error:** `{err}`__")
 
 
 @Bot.on_message((filters.document | filters.video | filters.audio) & ~filters.chat(Config.DB_CHANNEL))
@@ -120,7 +120,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://telegram.me/HackingCraze24_7d)",
+            await message.reply_text("__Sorry, You are banned!\n\nContact [Hacking Craze 👑](https://telegram.me/HackingCraze24_7d)__",
                                      disable_web_page_preview=True)
             return
 
@@ -148,7 +148,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = str(forwarded_msg.id)
-            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=HackingCraze_{str_to_b64(file_er_id)}"
+            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=TGSBots_{str_to_b64(file_er_id)}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Link", url=share_link)]]))
@@ -318,8 +318,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://github.com/one-mistake/TGS-FileStoreBot")
                     ],
                     [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome"),
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -336,8 +336,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                                              url="https://github.com/one-mistake/TGS-FileStoreBot")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("Go Home 🏠", callback_data="gotohome")
                     ]
                 ]
             )
@@ -350,12 +350,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
+                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d"),
+                        InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
@@ -371,7 +371,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://telegram.me/HackingCraze24_7d).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Hacking Craze 👑](https://telegram.me/HackingCraze24_7d).",
                         disable_web_page_preview=True
                     )
                     return
@@ -394,7 +394,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://telegram.me/HackingCraze24_7d).",
+                    text="Something went Wrong. Contact my [Hacking Craze 👑](https://telegram.me/HackingCraze24_7d).",
                     disable_web_page_preview=True
                 )
                 return
@@ -404,12 +404,12 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://telegram.me/HackingCraze24_7d"),
-                        InlineKeyboardButton("Save Restricted Bot", url="https://telegram.me/SaveRestrictedContent_byTGSBot")
+                        InlineKeyboardButton("Hacking Craze 👑", url="https://telegram.me/HackingCraze24_7d"),
+                        InlineKeyboardButton("TGS Bots 🤖", url="https://telegram.me/TGSBots")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("About Bot 🤖", callback_data="aboutbot"),
+                        InlineKeyboardButton("About Dev 🧑‍💻", callback_data="aboutdevs")
                     ]
                 ]
             )
